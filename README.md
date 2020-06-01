@@ -56,7 +56,7 @@ If you get any other error, or if these fixes don't work, please contact me via 
 # endo
 Simple endorsement checker for NationStates
 
-This is just a simple Python script to check who isn't endorsing a delegate. It supports command-line arguments, so can be automated. It uses just 4 API queries, regardless of the size of the region.
+This is just a simple Python script to check who isn't endorsing a delegate. It supports command-line arguments, so can be automated. It uses just 4 API queries, regardless of the size of the region. You can redirect the output to a text file using the command line, if you want.
 
 syntax for command-line arguments:
 
