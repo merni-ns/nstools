@@ -135,3 +135,6 @@ Press Enter to close...
 
 C:\Users\Admin>
 ```
+# Todo
+1. Add CL argument support to the RMB tool
+2. Make exe files for both tools?
