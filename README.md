@@ -60,7 +60,7 @@ If you get any other error, or if these fixes don't work, please contact me via 
 
 
 # endo
-https://forum.nationstates.net/viewtopic.php?f=15&t=484433
+Forum thread: https://forum.nationstates.net/viewtopic.php?f=15&t=484433
 
 Simple endorsement checker for NationStates
 
