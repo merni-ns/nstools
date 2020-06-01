@@ -1,4 +1,26 @@
-# endocheck
+# rmb
+RMB archiving tool for NationStates
+
+You should have a Python interpreter/IDE installed to use this.
+
+This Python program uses the messages shard of the Region API to get messages from a region's RMB and save them in a (somewhat) neat format in a text file. The data saved are the post author, date and time, post ID, sequential post number (first post 1, etc), number and name of likes, whether the post is suppressed, self-deleted or mod deleted, and if suppressed, by whom, and of course the message content.
+
+Steps to use:
+1. Download the rmb.py file.
+2. Run it by double-clicking, or (preferably) in your IDE.
+3. Follow the instructions on the command window. When entering the file name, enter it with full path (using backslashes \ on Windows) and extension (.txt). You can skip entering the path if the file is saved in the same folder as the script (not necessarily the Python folder, please ignore what the script's message says for this).
+
+Running may take some time depending on the size of your RMB. The output screen (console) will print out the number of messages done every 100 messages, so you can keep track. When the program ends, the output window may close on its own. Check your text file to see if the program worked successfully.
+
+## Errors
+If the script stops with an error (starting with "Traceback (most recent call last)" etc on the first line) and the last line of the error contains "invalid token" or something like that, please note the last post ID saved to the text file, start up the script again, enable advanced options, and enter a starting post ID about 100 or 1000 more than that one. (Post IDs are not sequential in a region, so you probably will not miss any posts or maybe a few at most. You may need to advance by a lot if your RMB was inactive at the time of that post.) This error may be caused due to an invalid (control) character in a certain post.
+
+If the output contains ? or weird symbols in unexpected places, please just live with it. This and the above error are caused by inconsistent encoding in the API messages shard.
+
+If you get any other error, or if these fixes don't work, please contact me via TG.
+
+
+# endo
 Simple endorsement checker for NationStates
 
 This is just a simple Python script to check who isn't endorsing a delegate. It supports command-line arguments, so can be automated. It uses just 4 API queries, regardless of the size of the region.
