@@ -4,6 +4,7 @@
 
 # rmb
 Forum thread: https://forum.nationstates.net/viewtopic.php?f=15&t=475837
+
 RMB archiving tool for NationStates
 
 You should have a Python interpreter/IDE installed to use this.
@@ -60,6 +61,7 @@ If you get any other error, or if these fixes don't work, please contact me via 
 
 # endo
 https://forum.nationstates.net/viewtopic.php?f=15&t=484433
+
 Simple endorsement checker for NationStates
 
 This is just a simple Python script to check who isn't endorsing a delegate. It supports command-line arguments, so can be automated. It uses just 4 API queries, regardless of the size of the region. You can redirect the output to a text file using the command line, if you want.
