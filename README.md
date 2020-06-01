@@ -1,3 +1,5 @@
+#### Please download the tools by downloading the .py files, not the whole repository!
+
 # rmb
 RMB archiving tool for NationStates
 
