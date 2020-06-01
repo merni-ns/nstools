@@ -12,6 +12,39 @@ Steps to use:
 
 Running may take some time depending on the size of your RMB. The output screen (console) will print out the number of messages done every 100 messages, so you can keep track. When the program ends, the output window may close on its own. Check your text file to see if the program worked successfully.
 
+## Examples
+```
+--------------------------------------------------------------------------------
+20657581: Post 1665 by vavax on 2016-08-04 at 22:42:33 GMT
+Likes: 1(merni)
+
+[quote=united_meme_alliance;20656723]NS logic at its finest[/quote]
+Damnit Max Barry
+```
+where 20657581 is the post ID and 1665 is the sequential number of the post.
+```
+--------------------------------------------------------------------------------
+19893583: Post 1246 by dragosi on 2016-06-21 at 06:54:32 GMT
+Likes: 0()
+self-deleted
+Message deleted by author
+```
+```
+--------------------------------------------------------------------------------
+24078428: Post 7532 by please_stay_hydrated on 2017-02-24 at 22:59:44 GMT
+Likes: 2(federal_southern_cities:calapsia)
+moderator deleted
+Message suppressed by a moderator
+```
+```
+--------------------------------------------------------------------------------
+26640002: Post 11630 by calapsia on 2017-08-04 at 23:03:49 GMT
+Likes: 1(new_cheeseland)
+suppressed by vavax
+[quote=vavax;26631431]Which means I therefore also have positive 0 power.To be fair, this is a real thing that happened.[/quote]
+HA. Got you there, dad! Negative zero doesn't exist, therefore neither does your power! :D
+```
+
 ## Errors
 If the script stops with an error (starting with "Traceback (most recent call last)" etc on the first line) and the last line of the error contains "invalid token" or something like that, please note the last post ID saved to the text file, start up the script again, enable advanced options, and enter a starting post ID about 100 or 1000 more than that one. (Post IDs are not sequential in a region, so you probably will not miss any posts or maybe a few at most. You may need to advance by a lot if your RMB was inactive at the time of that post.) This error may be caused due to an invalid (control) character in a certain post.
 
