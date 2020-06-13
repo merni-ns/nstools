@@ -14,7 +14,26 @@ This Python program uses the messages shard of the Region API to get messages fr
 Steps to use:
 1. Download the rmb.py file.
 2. Run it by double-clicking, or (preferably) in your IDE.
-3. Follow the instructions on the command window. When entering the file name, enter it with full path (using backslashes \ on Windows) and extension (.txt). You can skip entering the path if the file is saved in the same folder as the script (not necessarily the Python folder, please ignore what the script's message says for this).
+3. Follow the instructions on the command window. When entering the file name, enter it with full path (using backslashes \ on Windows) and extension (.txt). You can skip entering the path if the file is saved in the same folder as the script (not necessarily the Python folder, please ignore what the script's message says for this). You can use the command line arguments as well.
+
+Syntax for CL arguments:
+```
+usage: rmb.py [-h] [-u USERAGENT] [-r REGION] [-o FILE] [-i STARTID]
+              [-s STARTNO]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u USERAGENT, --useragent USERAGENT
+                        NS API user agent
+  -r REGION, --region REGION
+                        Region name
+  -o FILE, --file FILE  File to output the result (with path if required)
+  -i STARTID, --startid STARTID
+                        Starting Post ID
+  -s STARTNO, --startno STARTNO
+                        Starting serial number
+```
+If run without the u, r and f arguments it prompts for input.
 
 Running may take some time depending on the size of your RMB. The output screen (console) will print out the number of messages done every 100 messages, so you can keep track. When the program ends, the output window may close on its own. Check your text file to see if the program worked successfully.
 
