@@ -95,6 +95,8 @@ syntax for command-line arguments:
                             Region name
       -u USERAGENT, --useragent USERAGENT
                             User agent
+      -8, --line8
+                            Output nation names only, 8 per line
 
 The script asks for input when run without sufficient CL arguments, as follows:
 ```
@@ -160,6 +162,8 @@ Press Enter to close...
 
 C:\Users\Admin>
 ```
+The -8 argument is useful for manual telegramming (try it out).
+
 # Todo
 1. Add CL argument support to the RMB tool
 2. Make exe files for both tools?
