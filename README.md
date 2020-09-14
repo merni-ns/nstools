@@ -164,6 +164,4 @@ C:\Users\Admin>
 ```
 The -8 argument is useful for manual telegramming (try it out).
 
-# Todo
-1. Add CL argument support to the RMB tool
-2. Make exe files for both tools?
+Coming soon, if I can get suitable hosting -- a web hosted version of "endo" at least!
