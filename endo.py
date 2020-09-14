@@ -1,4 +1,4 @@
-#WA Delegate endorsement check by Merni, v1
+#WA Delegate endorsement check by Merni, v2
 #Some code taken from stackoverflow
  
 import urllib.request
