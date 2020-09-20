@@ -11,7 +11,7 @@ import cgitb
 
 cgitb.enable()
 nt = datetime.utcnow().strftime('%Y-%m-%d at %H:%M:%S UTC')
-out1 = '<html><head><meta charset="utf-8"><title>Merni\'s endorsement checker - output</title></head><body><h1>Endorsement checker: Output</h1><i>Report generated (start) at '+nt+'</i><hr>'
+out1 = '<html><head><meta charset="utf-8"><title>Merni\'s endorsement checker - output</title></head><body><h1>Endorsement checker: Output</h1><i>Report generated (start) on '+nt+'</i><hr>'
 out2 = '<hr>If you get any errors, check your input and try again after a minute or so. If the error persists, contact me (see below).<br>If the web version of this script is buggy, very slow, etc. then download it from the GitHub link below and use it on your computer.<br>Script by <a href="http://www.nationstates.net">NationStates</a> user <a href="http://www.nationstates.net/merni">Merni</a>. <br>Source at <a href="http://www.github.com/merni-ns/nstools">Github</a>. <br>Send questions, suggestions, error reports etc. to me through NS telegram (preferred) or at merni at merni dot heliohost dot org.<br>Web site hosted for free by <a href="http://www.heliohost.org/">HelioHost</a><br><a href="../index.html">Home page</a></body></html>'
 out = "_text"
 
