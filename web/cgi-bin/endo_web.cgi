@@ -69,18 +69,6 @@ def get_region(region : str) -> set :
 	reg_l = reg_stl.split(':')
 	return set(reg_l)
 
-"""
-def get_del(region : str) -> str :
-	regionnamef = region.casefold().replace(' ', '_')
-	del_url = 'https://www.nationstates.net/cgi-bin/api.cgi?region='+regionnamef+'&q=delegate'
-	del_req = urllib.request.Request(del_url,headers={'User-Agent':useragent})
-	del_req1 = urllib.request.urlopen(del_req).read()
-	del_req2 = ET.fromstring(del_req1)
-	del_d = dictify(del_req2)
-	wadel = del_d['REGION']['DELEGATE'][0][out]
-	return wadel
-"""
-
 def get_reg_del(region : str) -> tuple : # returns tuple (set nations, str wad)
 	regionnamef = region.casefold().replace(' ', '_')
 	del_url = 'https://www.nationstates.net/cgi-bin/api.cgi?region='+regionnamef+'&q=delegate+nations'
