@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Merni's endorsement checker</title>
+	</head>
+	<body>
+		<h1>Endorsement checker</h1>
+		This tool shows you who isn't endorsing a region's WA Delegate (or any other nation) in a region.<br>
+		"Condensed" output is useful for manually telegramming these nations.<br>
+		<form action="/cgi-bin/endo_web.cgi" method="post">
+		<fieldset>
+			<legend>Input</legend>
+			<label for="region">Region name:</label>
+			<input type="text" id="region" name="region">
+			<br>
+			Check endorsements given to<br>
+			<input type="radio" id="del" name="chk" value="d" checked>
+			<label for="del">WA Delegate</label>
+			<br>
+			<input type="radio" id="nat" name="chk" value="n">
+			<label for="nat">A specific nation:</label>
+			<input type="text" name="nname">
+			<br>
+			Output format:<br>
+			<input type="radio" id="chkf" name="output" value="f" checked>
+			<label for="chkf">Full</label>
+			<br>
+			<input type="radio" id="chk8" name="output" value="8">
+			<label for="chk8">Condensed (nation names only, 8 per line, comma-separated)</label>
+			<br>
+			<button type="submit">Query</button>
+		</fieldset>
+		</form>
+		<br>
+		About 3 seconds of delay are built into the script, in a very dumb attempt at complying with NS API rate limits. The web host is also likely to be slow sometimes, since it's free. So please don't complain about slow load times!<br>
+		If you get any errors, check your input and try again after a minute or so. If the error persists, contact me (see below).<br>
+		If the web version of this script is buggy, very slow, etc. then download it from the GitHub link below and use it on your computer.<br>
+		Script by <a href="http://www.nationstates.net">NationStates</a> user <a href="http://www.nationstates.net/merni">Merni</a>. <br>
+		Source at <a href="http://www.github.com/merni-ns/nstools">Github</a>. <br>
+		Send questions, suggestions, error reports etc. to me through NS telegram (preferred) or at merni at merni dot heliohost dot org.<br>
+		Web site hosted for free by <a href="http://www.heliohost.org/">HelioHost</a><br>
+		<a href="/index.html">Home page</a><br>
+		<marquee>Here's a <font face="monospace">marquee</font> if this page doesn't feel '90s enough. Whee!</marquee>
+	</body>
+</html>
