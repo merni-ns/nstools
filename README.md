@@ -1,7 +1,7 @@
 #### Please download the tools by downloading the .py files from https://github.com/merni-ns/nstools/releases, not the whole repository!
 #### Please don't do anything to the repository without asking me first via telegram!
 #### The forum threads are still better ways to get something noticed, don't expect me to check Github.
-
+#### Web version of "endo": https://merni.heliohost.org/endo.html
 # rmb
 Forum thread: https://forum.nationstates.net/viewtopic.php?f=15&t=475837
 
@@ -80,6 +80,7 @@ If you get any other error, or if these fixes don't work, please contact me via 
 
 # endo
 Forum thread: https://forum.nationstates.net/viewtopic.php?f=15&t=484433
+Web version: https://merni.heliohost.org/endo.html (can check for any nation, not just the delegate)
 
 Simple endorsement checker for NationStates
 
@@ -163,5 +164,3 @@ Press Enter to close...
 C:\Users\Admin>
 ```
 The -8 argument is useful for manual telegramming (try it out).
-
-Coming soon, if I can get suitable hosting -- a web hosted version of "endo" at least!
