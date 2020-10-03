@@ -1,5 +1,5 @@
 #RMB Archiving script by Merni
-#Version 4
+#Version 4.1
 #If the script fails, send me a TG.
 #Automatically ratelimited to 100 msgs (1 req) every 1.5s, i.e. 20 reqs / 30s
 #Some code using urllib taken from stackoverflow.
@@ -49,8 +49,8 @@ else:
     useragent = args.useragent
     regionname = args.region
     filename = args.file
-sid = '' if args.startid is None else args.startid
-sn = '' if args.startno is None else args.startno
+    sid = '' if args.startid is None else args.startid
+    sn = '' if args.startno is None else args.startno
 
 
 regionnamef = regionname.casefold().replace(' ','_')
