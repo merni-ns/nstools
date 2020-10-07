@@ -110,11 +110,11 @@ if x is not None:
 	elif x[2] == "n":
 		wad = x[3].casefold().replace(' ','_')
 		reg = get_region(x[0])
-		time.sleep(1)
+		time.sleep(0.5)
 	endos = get_endos(wad)
-	time.sleep(1)
+	time.sleep(0.5)
 	wa = get_wa()
-	time.sleep(1)
+	time.sleep(0.5)
 	regwa = reg.intersection(wa)
 	nend = regwa.difference(endos)
 	nend = nend.difference({wad})
@@ -132,7 +132,7 @@ if x is not None:
 		resp += "<b>Nation checked:</b> " + wad + "<br>"
 		resp += "<b>Endorsements:</b> " + str(len(endos)) + "<br>"
 		resp += "<b>Nations not endorsing:</b> " + str(len(nend)) + "<br>"
-		resp += "<b>% endorsing:</b> " + str(len(endos)/(len(regwa)-1)) + "<br>"
+		resp += "<b>% endorsing:</b> " + "%.2f" % (100*(len(endos)/(len(regwa)-1))) + "<br>"
 		resp += "<h3>List of nations not endorsing: </h3>"
 		resp += "<ol>"
 		for i in nend:
