@@ -1,7 +1,7 @@
-#### Please download the tools by downloading the .py files from https://github.com/merni-ns/nstools/releases, not the whole repository!
-#### Please don't do anything to the repository without asking me first via telegram!
-#### The forum threads are still better ways to get something noticed, don't expect me to check Github.
-#### Web version of "endo": https://merni.heliohost.org/endo.html
+## THIS REPOSITORY IS ARCHIVED. 
+Please download the tools by downloading the .py files from https://github.com/merni-ns/nstools/releases, not the whole repository!
+Please don't do anything to the repository without asking me first via telegram!
+Web version of "endo": https://merni.heliohost.org/endo.html
 # rmb
 Forum thread: https://forum.nationstates.net/viewtopic.php?f=15&t=475837
 
