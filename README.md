@@ -1,4 +1,5 @@
 ## THIS REPOSITORY IS ARCHIVED. 
+Go to https://github.com/merni-ns/endo and https://github.com/merni-ns/rmb
 Please download the tools by downloading the .py files from https://github.com/merni-ns/nstools/releases, not the whole repository!
 Please don't do anything to the repository without asking me first via telegram!
 Web version of "endo": https://merni.heliohost.org/endo.html
